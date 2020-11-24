@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".activity.FinishActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/finish_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imgTick"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="10dp"
+            android:background="@drawable/check_w"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160dp"
+            />
+        <TextView
+            android:id="@+id/txtFinishTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Placed"
+            android:textSize="32sp"
+            android:layout_below="@+id/imgTick"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="4dp"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/txtFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Press OK to continue"
+            android:textSize="24sp"
+            android:layout_below="@+id/txtFinishTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="4dp"
+            android:textColor="@android:color/white"
+            />
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/txtFinish"
+            android:background="@drawable/edit_round_square_button"
+            android:padding="10dp"
+            android:text="OK"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</LinearLayout>

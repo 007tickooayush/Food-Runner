@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FAQFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/txtQ1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/q1_faq"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txtA1"
+                android:layout_below="@+id/txtQ1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:text="A1. Testing "
+                android:textSize="16sp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txtQ2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/q1_faq"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@+id/txtA1"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txtA2"
+                android:layout_below="@+id/txtQ2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="A1. Testing "
+                android:textSize="16sp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txtQ3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtA2"
+                android:layout_centerHorizontal="true"
+                android:text="@string/q1_faq"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txtA3"
+                android:layout_below="@+id/txtQ3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:text="A1. Testing "
+                android:textSize="16sp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txtQ4"
+                android:layout_below="@+id/txtA3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/q1_faq"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txtA4"
+                android:layout_below="@+id/txtQ4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="A1. Testing "
+                android:textSize="16sp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txtQ5"
+                android:layout_below="@+id/txtA4"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/q1_faq"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txtA5"
+                android:layout_below="@+id/txtQ5"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="A1. Testing "
+                android:textSize="16sp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txtQ6"
+                android:layout_below="@+id/txtA5"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/q1_faq"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txtA6"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@+id/txtQ6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="A1. Testing "
+                android:textSize="16sp"
+                android:padding="10dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

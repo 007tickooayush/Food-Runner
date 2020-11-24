@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1069204050947",
+    "firebase_url": "https://food-runner-4f296.firebaseio.com",
+    "project_id": "food-runner-4f296",
+    "storage_bucket": "food-runner-4f296.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069204050947:android:21f73db4ba65bc55846a36",
+        "android_client_info": {
+          "package_name": "com.reazon.foodrunner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069204050947-vr4c1stbec2msvsfdcj0cdaqr9fc4uan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reazon.foodrunner",
+            "certificate_hash": "10b12a2a1343d1b9f1fb4eee58278de5ad348ff4"
+          }
+        },
+        {
+          "client_id": "1069204050947-9ff5kbc28kekp35m6drcsbkb4beq85fk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP1tGpwffseky5C7jMDb45MNgcpKhQMLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069204050947-9ff5kbc28kekp35m6drcsbkb4beq85fk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
