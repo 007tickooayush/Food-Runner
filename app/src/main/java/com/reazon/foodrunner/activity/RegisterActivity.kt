@@ -38,14 +38,7 @@ class RegisterActivity : AppCompatActivity() {
         etConfirmPassword = findViewById(R.id.etConfirmPassword)
         btnRegister = findViewById(R.id.btnRegister)
 
-        /*val url = "http://13.235.250.119/v2/register/fetch_result"
-        val queue =Volley.newRequestQueue(this@RegisterActivity)
-        val jsonObjectRequest =object :JsonObjectRequest(Request.Method.POST,url,null, Response.Listener{
-            //response handled
-        },Response.ErrorListener {
-                //Error handled
-        }){
-        }*/
+
         mAuth = FirebaseAuth.getInstance()
 
         btnRegister.setOnClickListener {

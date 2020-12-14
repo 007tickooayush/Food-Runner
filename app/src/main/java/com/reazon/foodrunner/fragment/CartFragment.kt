@@ -62,8 +62,6 @@ class CartFragment : Fragment() {
                     adapter.add(OrderItem(order!!))
                     index++
                 }
-
-
             }
 
             override fun onCancelled(error: DatabaseError) {
